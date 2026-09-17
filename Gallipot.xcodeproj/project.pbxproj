@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065B30D44F942E7778200FDD /* GallipotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADCE1BA4D02C26F6C2B4E8 /* GallipotTests.swift */; };
+		099BA53CC6D78A6FD7F058FC /* StillroomLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B302AA6ED147758E904B7FE /* StillroomLinkTests.swift */; };
+		0E7C8FA2AE28102F9821AF7C /* CaptureSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59719D52761C4A35D61CD7A6 /* CaptureSheet.swift */; };
+		0ED94B11AF5810CBA3F965BB /* FacingPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2059DF78E0E4CCF601B306 /* FacingPane.swift */; };
+		0FC39F976DD502893397DC7E /* StillroomFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54915160DA34A90565694F /* StillroomFault.swift */; };
+		11B4F0A1749B59CF610B3D11 /* StillroomMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746F3F206EE0591E083F3599 /* StillroomMeasure.swift */; };
+		15DDC5A7EE1C10878B86F5A1 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C0F64D789F6467FE2D220 /* Face.swift */; };
+		16A19B89A3B15EA7D7ACF84E /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B3730061AD065F9D8B5B2 /* FamilyInvariantTests.swift */; };
+		17053F9942F7C4F939954769 /* CatalogPorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDA019776843FE65E27CD2 /* CatalogPorter.swift */; };
+		189BAFCDBE28BCA60CBD2023 /* StillroomPaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44ED3BE1B4B77F27A5A43B8 /* StillroomPaint.swift */; };
+		2C21D5EF1C41D32FBFBCD001 /* StillroomPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515F700756536FD3CD7CB91 /* StillroomPersistenceTests.swift */; };
+		32FCC73A77D032B45EBA7D19 /* StillroomVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F660159BDBE545BF155EC /* StillroomVault.swift */; };
+		36140FD25407A826385FEBAC /* FusePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D275760116E1C31C4EE46F0 /* FusePane.swift */; };
+		40DFD6A61F28518AB4C2441B /* BayPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C052B4512EC27FE66806BF7 /* BayPane.swift */; };
+		426397A7D7A32FB251E64F5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5509416A95C58D97DFE2ABD /* AppDelegate.swift */; };
+		48A1E7EDBAE68B3F9C9EFC9B /* StillroomLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADF4B03E85E0700FD6E9662 /* StillroomLink.swift */; };
+		4DFC32193A84C8542E5EDB41 /* GallipotIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF82A95E9F62FC6392FC4A1 /* GallipotIntents.swift */; };
+		52189B72CAEBA0552B0344C0 /* CaptureDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5020B3A04780D7CC89E254 /* CaptureDesk.swift */; };
+		5A7B8D0347F51BBFF3A70AC6 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D23C9C06C5CD47199B5372 /* APIConfig.swift */; };
+		5B20C5B8A953A3F0FCC783E5 /* FaceHeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0F6C064C8AAEABEEBC3A /* FaceHeroCard.swift */; };
+		5F538429DB1D9B9CE7D8A0EE /* StillroomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EF05DFA86D3E79F8D4156 /* StillroomPaths.swift */; };
+		635C25296F0871CE3B514662 /* StillroomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485EAC4BB2FE6E9355869449 /* StillroomType.swift */; };
+		65938336ED9407AA0CBE39AD /* Spent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6599DEDB66A7F00298B2E04E /* Spent.swift */; };
+		67278EB4AEFF59E527F9EE89 /* Bay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020BF361221BDA772AE0F43 /* Bay.swift */; };
+		6EDC758F5371B02CA7916C84 /* UseSoonRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA248A8CFF202D5554EFF4C /* UseSoonRail.swift */; };
+		6FB8D92D738FAA19575A8416 /* StillroomChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9721CE1081AD856414DFB /* StillroomChrome.swift */; };
+		744C2D646AAB9C312D85AB66 /* IdentityStash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D72F2FC9CA12471F754E890 /* IdentityStash.swift */; };
+		7B864E2F100986ED24309CF7 /* BundledShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0901CEEA3EFE1C8320C38 /* BundledShelf.swift */; };
+		7E84F2AA86B048ADFB037FD4 /* Lot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B54B6F3898478ED82B993 /* Lot.swift */; };
+		809F510E8F0B8613FA230DA7 /* BayStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C193A9F0C0B9A82B770A2 /* BayStack.swift */; };
+		825D5CF591FA1927C81917A3 /* WorldShelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3E3D6451FE52E7AE44448 /* WorldShelfTests.swift */; };
+		83CD78A7CAD867EA9E566378 /* PullFaceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E7B6C597BBBADF4BF1351 /* PullFaceControl.swift */; };
+		87514FA6A428A612BAB2BE46 /* OnboardingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E2D04CE8965518BBA4DB89 /* OnboardingStack.swift */; };
+		999B0FDEC0385803C294695E /* TinCodeHarvest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEE6BBA18767359B390B97 /* TinCodeHarvest.swift */; };
+		9B5FDA17E0803BB29EC76F66 /* TinHuntPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546132FB9926B5B0646512E /* TinHuntPreview.swift */; };
+		A5DBE308C274FD3F9D19E5D2 /* FaceThinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E606F5926D114B51D4C0F /* FaceThinRow.swift */; };
+		A942C96054F63AE83F92DCD3 /* TestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E2BBDBF73719DCE368829 /* TestSupport.swift */; };
+		AA13D980E56D5FD7C3B669DB /* PullMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581DFFDE5AC7CB8B46698CD /* PullMark.swift */; };
+		AC7A00ED917DF60AA7DCA2F9 /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F2E8E225EEFFA001C8A218 /* Daykey.swift */; };
+		AF5B69F4FB82F40EFD370A16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56234D96BDD039BF2CAE700 /* ContentView.swift */; };
+		AFABBBC01C29275DA41C2F46 /* ReviewScreenAndCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55DD4ADBED1E7BD30812D3 /* ReviewScreenAndCodeTests.swift */; };
+		B037ACD5D6557DBCEB24CC60 /* TinIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238E023541750ECDD0A83D93 /* TinIdentity.swift */; };
+		B070018DFECDF2E492651AB5 /* FaceThenPullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D21503138A3B77BFAC85 /* FaceThenPullTests.swift */; };
+		B471FB9F6564DED2F40FE65E /* DeskPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F626D6CCC6801449CE619 /* DeskPane.swift */; };
+		B57B7FA629CD3E04ECCF9230 /* PantryPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8821ECB9758C20F3EC871DB /* PantryPane.swift */; };
+		B83882DD1CB5EEC382BEA616 /* ReviewScreenFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5E351DA23362EE831B8D8E /* ReviewScreenFlag.swift */; };
+		BAC8A5D0D99738853A43DB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8279AF46101D703BAEEB31F /* Assets.xcassets */; };
+		C1CBB941EF9174863CB9FEDA /* TinHuntReticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50AACF66805E0EE0510ACFE /* TinHuntReticle.swift */; };
+		C5B8BDEECEA69DE6267202A5 /* WorldShelfClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C534379DC9503C93A7ED88D /* WorldShelfClient.swift */; };
+		CD7967781BA8F7B37015E377 /* StillroomMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A921267419BF2C2F15DC7 /* StillroomMotion.swift */; };
+		CEBB291B9D286D7FE793ADC2 /* StillroomCutout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35D9A2AE60782FF39499F7 /* StillroomCutout.swift */; };
+		CF90C3A9659A9686851A4226 /* FaceInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0B140933CB51E5C68A78DD /* FaceInk.swift */; };
+		D4618B0ACB1600C7BCBE70C5 /* StillroomCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119F188AAEC9583A43671CF8 /* StillroomCSV.swift */; };
+		D65BF3FC1A0E77479D6E3FFA /* StillroomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF832659B75D45C457AE48 /* StillroomStore.swift */; };
+		D7EAC357050915F624DFE785 /* HuntPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212815D2C89AE15DC53F716 /* HuntPane.swift */; };
+		DE5827A526D0DB3E8B40A5E5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CB091ADC43CDA2D0E7124411 /* Alamofire */; };
+		E4B16CD66B47A874FD80ED08 /* bundled_shelf.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E61D575359152ED2285404E /* bundled_shelf.json */; };
+		EAA78438CD181FE554262FA8 /* StillroomSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6017AD5D2AFD36E0A3A8C60 /* StillroomSession.swift */; };
+		EB01D2FF7B6D3AF0EAD5D1EB /* GallipotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54221252BBA6546B4AF9AF25 /* GallipotApp.swift */; };
+		ECAD9F3BF96AE494C1CCD81A /* StillroomDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774AC228461E7A7241D2CF1 /* StillroomDocument.swift */; };
+		F320AD08979FF437B2B92B2B /* SpentCullBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42BAA4883C63ED1DA5ED7F8 /* SpentCullBar.swift */; };
+		FE294758A91C429626C59BCB /* WorldShelfDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14081A6F444441094494A436 /* WorldShelfDTO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533C04A4B1AE55A7212ECAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178E4A0719C85F32F3F4419B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60AEF00F7DE8C25CEDDCF1A0;
+			remoteInfo = Gallipot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C052B4512EC27FE66806BF7 /* BayPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayPane.swift; sourceTree = "<group>"; };
+		0F7C5283886FA11AA7249015 /* GallipotTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GallipotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		111C0F64D789F6467FE2D220 /* Face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		119F188AAEC9583A43671CF8 /* StillroomCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomCSV.swift; sourceTree = "<group>"; };
+		14081A6F444441094494A436 /* WorldShelfDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldShelfDTO.swift; sourceTree = "<group>"; };
+		14D23C9C06C5CD47199B5372 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		1FA3E3D6451FE52E7AE44448 /* WorldShelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldShelfTests.swift; sourceTree = "<group>"; };
+		22A0901CEEA3EFE1C8320C38 /* BundledShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledShelf.swift; sourceTree = "<group>"; };
+		238E023541750ECDD0A83D93 /* TinIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinIdentity.swift; sourceTree = "<group>"; };
+		250EF05DFA86D3E79F8D4156 /* StillroomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomPaths.swift; sourceTree = "<group>"; };
+		2AD2A7126A4E05A88281CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2B2059DF78E0E4CCF601B306 /* FacingPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacingPane.swift; sourceTree = "<group>"; };
+		2B302AA6ED147758E904B7FE /* StillroomLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomLinkTests.swift; sourceTree = "<group>"; };
+		2D275760116E1C31C4EE46F0 /* FusePane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusePane.swift; sourceTree = "<group>"; };
+		2E0B3730061AD065F9D8B5B2 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		3C534379DC9503C93A7ED88D /* WorldShelfClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldShelfClient.swift; sourceTree = "<group>"; };
+		3D1A921267419BF2C2F15DC7 /* StillroomMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomMotion.swift; sourceTree = "<group>"; };
+		3E61D575359152ED2285404E /* bundled_shelf.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bundled_shelf.json; sourceTree = "<group>"; };
+		3F6E7B6C597BBBADF4BF1351 /* PullFaceControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullFaceControl.swift; sourceTree = "<group>"; };
+		4303DCF03701B3E9478E7287 /* Gallipot.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Gallipot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4774AC228461E7A7241D2CF1 /* StillroomDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomDocument.swift; sourceTree = "<group>"; };
+		485EAC4BB2FE6E9355869449 /* StillroomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomType.swift; sourceTree = "<group>"; };
+		54221252BBA6546B4AF9AF25 /* GallipotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallipotApp.swift; sourceTree = "<group>"; };
+		59719D52761C4A35D61CD7A6 /* CaptureSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSheet.swift; sourceTree = "<group>"; };
+		6599DEDB66A7F00298B2E04E /* Spent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spent.swift; sourceTree = "<group>"; };
+		6ABEE6BBA18767359B390B97 /* TinCodeHarvest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinCodeHarvest.swift; sourceTree = "<group>"; };
+		6BE9D21503138A3B77BFAC85 /* FaceThenPullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceThenPullTests.swift; sourceTree = "<group>"; };
+		6BFF832659B75D45C457AE48 /* StillroomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomStore.swift; sourceTree = "<group>"; };
+		6CF82A95E9F62FC6392FC4A1 /* GallipotIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallipotIntents.swift; sourceTree = "<group>"; };
+		6E35D9A2AE60782FF39499F7 /* StillroomCutout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomCutout.swift; sourceTree = "<group>"; };
+		7020BF361221BDA772AE0F43 /* Bay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bay.swift; sourceTree = "<group>"; };
+		746F3F206EE0591E083F3599 /* StillroomMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomMeasure.swift; sourceTree = "<group>"; };
+		762E2BBDBF73719DCE368829 /* TestSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSupport.swift; sourceTree = "<group>"; };
+		795F660159BDBE545BF155EC /* StillroomVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomVault.swift; sourceTree = "<group>"; };
+		7ADF4B03E85E0700FD6E9662 /* StillroomLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomLink.swift; sourceTree = "<group>"; };
+		7D0E606F5926D114B51D4C0F /* FaceThinRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceThinRow.swift; sourceTree = "<group>"; };
+		8515F700756536FD3CD7CB91 /* StillroomPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomPersistenceTests.swift; sourceTree = "<group>"; };
+		8A54915160DA34A90565694F /* StillroomFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomFault.swift; sourceTree = "<group>"; };
+		8B0B140933CB51E5C68A78DD /* FaceInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceInk.swift; sourceTree = "<group>"; };
+		8D72F2FC9CA12471F754E890 /* IdentityStash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityStash.swift; sourceTree = "<group>"; };
+		9212815D2C89AE15DC53F716 /* HuntPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntPane.swift; sourceTree = "<group>"; };
+		960B0F6C064C8AAEABEEBC3A /* FaceHeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceHeroCard.swift; sourceTree = "<group>"; };
+		9B2F626D6CCC6801449CE619 /* DeskPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskPane.swift; sourceTree = "<group>"; };
+		BA55DD4ADBED1E7BD30812D3 /* ReviewScreenAndCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenAndCodeTests.swift; sourceTree = "<group>"; };
+		BC2C193A9F0C0B9A82B770A2 /* BayStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayStack.swift; sourceTree = "<group>"; };
+		CCA248A8CFF202D5554EFF4C /* UseSoonRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSoonRail.swift; sourceTree = "<group>"; };
+		D04B54B6F3898478ED82B993 /* Lot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lot.swift; sourceTree = "<group>"; };
+		D42BAA4883C63ED1DA5ED7F8 /* SpentCullBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpentCullBar.swift; sourceTree = "<group>"; };
+		D50AACF66805E0EE0510ACFE /* TinHuntReticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinHuntReticle.swift; sourceTree = "<group>"; };
+		D581DFFDE5AC7CB8B46698CD /* PullMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullMark.swift; sourceTree = "<group>"; };
+		D6DDA019776843FE65E27CD2 /* CatalogPorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPorter.swift; sourceTree = "<group>"; };
+		D8279AF46101D703BAEEB31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1ADCE1BA4D02C26F6C2B4E8 /* GallipotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallipotTests.swift; sourceTree = "<group>"; };
+		E44ED3BE1B4B77F27A5A43B8 /* StillroomPaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomPaint.swift; sourceTree = "<group>"; };
+		E56234D96BDD039BF2CAE700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6017AD5D2AFD36E0A3A8C60 /* StillroomSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomSession.swift; sourceTree = "<group>"; };
+		EB5E351DA23362EE831B8D8E /* ReviewScreenFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenFlag.swift; sourceTree = "<group>"; };
+		F3B9721CE1081AD856414DFB /* StillroomChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillroomChrome.swift; sourceTree = "<group>"; };
+		F546132FB9926B5B0646512E /* TinHuntPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinHuntPreview.swift; sourceTree = "<group>"; };
+		F5509416A95C58D97DFE2ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7F2E8E225EEFFA001C8A218 /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		F8821ECB9758C20F3EC871DB /* PantryPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryPane.swift; sourceTree = "<group>"; };
+		F8E2D04CE8965518BBA4DB89 /* OnboardingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStack.swift; sourceTree = "<group>"; };
+		FE5020B3A04780D7CC89E254 /* CaptureDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureDesk.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3F8272D697387A8CF8314B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5827A526D0DB3E8B40A5E5 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5C74F42D9781BE1A6B11E4 /* GallipotTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE9D21503138A3B77BFAC85 /* FaceThenPullTests.swift */,
+				2E0B3730061AD065F9D8B5B2 /* FamilyInvariantTests.swift */,
+				E1ADCE1BA4D02C26F6C2B4E8 /* GallipotTests.swift */,
+				BA55DD4ADBED1E7BD30812D3 /* ReviewScreenAndCodeTests.swift */,
+				2B302AA6ED147758E904B7FE /* StillroomLinkTests.swift */,
+				8515F700756536FD3CD7CB91 /* StillroomPersistenceTests.swift */,
+				762E2BBDBF73719DCE368829 /* TestSupport.swift */,
+				1FA3E3D6451FE52E7AE44448 /* WorldShelfTests.swift */,
+			);
+			path = GallipotTests;
+			sourceTree = "<group>";
+		};
+		4827A2D2E72B6F179AEA0004 /* Lot */ = {
+			isa = PBXGroup;
+			children = (
+				D04B54B6F3898478ED82B993 /* Lot.swift */,
+			);
+			path = Lot;
+			sourceTree = "<group>";
+		};
+		4BAD3C7ABD8EBFFDE46F7FF8 /* Gallipot */ = {
+			isa = PBXGroup;
+			children = (
+				14D23C9C06C5CD47199B5372 /* APIConfig.swift */,
+				F5509416A95C58D97DFE2ABD /* AppDelegate.swift */,
+				D8279AF46101D703BAEEB31F /* Assets.xcassets */,
+				E56234D96BDD039BF2CAE700 /* ContentView.swift */,
+				54221252BBA6546B4AF9AF25 /* GallipotApp.swift */,
+				2AD2A7126A4E05A88281CECC /* Info.plist */,
+				A456B7AC7B2F80D613B18605 /* Bay */,
+				F15ABE7CA450306EA4C50F37 /* Catalog */,
+				E9AE428CD53C00B323928871 /* Face */,
+				4827A2D2E72B6F179AEA0004 /* Lot */,
+				9DFD25D46D10C7F150870CA9 /* PullMark */,
+				A5982F9F4EB058FD48B9D4EC /* Spent */,
+				C56C5BA4CA70A6EA6547B812 /* Stillroom */,
+			);
+			path = Gallipot;
+			sourceTree = "<group>";
+		};
+		9DFD25D46D10C7F150870CA9 /* PullMark */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E7B6C597BBBADF4BF1351 /* PullFaceControl.swift */,
+				D581DFFDE5AC7CB8B46698CD /* PullMark.swift */,
+			);
+			path = PullMark;
+			sourceTree = "<group>";
+		};
+		A456B7AC7B2F80D613B18605 /* Bay */ = {
+			isa = PBXGroup;
+			children = (
+				7020BF361221BDA772AE0F43 /* Bay.swift */,
+				0C052B4512EC27FE66806BF7 /* BayPane.swift */,
+				BC2C193A9F0C0B9A82B770A2 /* BayStack.swift */,
+				F8821ECB9758C20F3EC871DB /* PantryPane.swift */,
+			);
+			path = Bay;
+			sourceTree = "<group>";
+		};
+		A5982F9F4EB058FD48B9D4EC /* Spent */ = {
+			isa = PBXGroup;
+			children = (
+				6599DEDB66A7F00298B2E04E /* Spent.swift */,
+				D42BAA4883C63ED1DA5ED7F8 /* SpentCullBar.swift */,
+			);
+			path = Spent;
+			sourceTree = "<group>";
+		};
+		C56C5BA4CA70A6EA6547B812 /* Stillroom */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2E8E225EEFFA001C8A218 /* Daykey.swift */,
+				9B2F626D6CCC6801449CE619 /* DeskPane.swift */,
+				6CF82A95E9F62FC6392FC4A1 /* GallipotIntents.swift */,
+				F8E2D04CE8965518BBA4DB89 /* OnboardingStack.swift */,
+				EB5E351DA23362EE831B8D8E /* ReviewScreenFlag.swift */,
+				F3B9721CE1081AD856414DFB /* StillroomChrome.swift */,
+				119F188AAEC9583A43671CF8 /* StillroomCSV.swift */,
+				6E35D9A2AE60782FF39499F7 /* StillroomCutout.swift */,
+				4774AC228461E7A7241D2CF1 /* StillroomDocument.swift */,
+				8A54915160DA34A90565694F /* StillroomFault.swift */,
+				7ADF4B03E85E0700FD6E9662 /* StillroomLink.swift */,
+				746F3F206EE0591E083F3599 /* StillroomMeasure.swift */,
+				3D1A921267419BF2C2F15DC7 /* StillroomMotion.swift */,
+				E44ED3BE1B4B77F27A5A43B8 /* StillroomPaint.swift */,
+				250EF05DFA86D3E79F8D4156 /* StillroomPaths.swift */,
+				E6017AD5D2AFD36E0A3A8C60 /* StillroomSession.swift */,
+				6BFF832659B75D45C457AE48 /* StillroomStore.swift */,
+				485EAC4BB2FE6E9355869449 /* StillroomType.swift */,
+				795F660159BDBE545BF155EC /* StillroomVault.swift */,
+			);
+			path = Stillroom;
+			sourceTree = "<group>";
+		};
+		D1CE3E5FF608A790F1EB23DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4303DCF03701B3E9478E7287 /* Gallipot.app */,
+				0F7C5283886FA11AA7249015 /* GallipotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9AE428CD53C00B323928871 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				111C0F64D789F6467FE2D220 /* Face.swift */,
+				960B0F6C064C8AAEABEEBC3A /* FaceHeroCard.swift */,
+				8B0B140933CB51E5C68A78DD /* FaceInk.swift */,
+				7D0E606F5926D114B51D4C0F /* FaceThinRow.swift */,
+				2B2059DF78E0E4CCF601B306 /* FacingPane.swift */,
+				CCA248A8CFF202D5554EFF4C /* UseSoonRail.swift */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		F15ABE7CA450306EA4C50F37 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				3E61D575359152ED2285404E /* bundled_shelf.json */,
+				22A0901CEEA3EFE1C8320C38 /* BundledShelf.swift */,
+				FE5020B3A04780D7CC89E254 /* CaptureDesk.swift */,
+				59719D52761C4A35D61CD7A6 /* CaptureSheet.swift */,
+				D6DDA019776843FE65E27CD2 /* CatalogPorter.swift */,
+				2D275760116E1C31C4EE46F0 /* FusePane.swift */,
+				9212815D2C89AE15DC53F716 /* HuntPane.swift */,
+				8D72F2FC9CA12471F754E890 /* IdentityStash.swift */,
+				6ABEE6BBA18767359B390B97 /* TinCodeHarvest.swift */,
+				F546132FB9926B5B0646512E /* TinHuntPreview.swift */,
+				D50AACF66805E0EE0510ACFE /* TinHuntReticle.swift */,
+				238E023541750ECDD0A83D93 /* TinIdentity.swift */,
+				3C534379DC9503C93A7ED88D /* WorldShelfClient.swift */,
+				14081A6F444441094494A436 /* WorldShelfDTO.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		FFF4AFC3D99B9D748924FB81 = {
+			isa = PBXGroup;
+			children = (
+				4BAD3C7ABD8EBFFDE46F7FF8 /* Gallipot */,
+				2C5C74F42D9781BE1A6B11E4 /* GallipotTests */,
+				D1CE3E5FF608A790F1EB23DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60AEF00F7DE8C25CEDDCF1A0 /* Gallipot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A2B628631E900466969B7A /* Build configuration list for PBXNativeTarget "Gallipot" */;
+			buildPhases = (
+				527C41DA3D96F3F87E975B02 /* Sources */,
+				E4681951AF3832B74988BF00 /* Resources */,
+				2E3F8272D697387A8CF8314B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gallipot;
+			packageProductDependencies = (
+				CB091ADC43CDA2D0E7124411 /* Alamofire */,
+			);
+			productName = Gallipot;
+			productReference = 4303DCF03701B3E9478E7287 /* Gallipot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99128D90653EA332F6F980F2 /* GallipotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C85ECE5933DD88684FF044A /* Build configuration list for PBXNativeTarget "GallipotTests" */;
+			buildPhases = (
+				B8B01982A74C649C9C153260 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709381F76731169797177C2F /* PBXTargetDependency */,
+			);
+			name = GallipotTests;
+			packageProductDependencies = (
+			);
+			productName = GallipotTests;
+			productReference = 0F7C5283886FA11AA7249015 /* GallipotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178E4A0719C85F32F3F4419B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					60AEF00F7DE8C25CEDDCF1A0 = {
+						ProvisioningStyle = Automatic;
+					};
+					99128D90653EA332F6F980F2 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C8B67E43347B7ED0F426961 /* Build configuration list for PBXProject "Gallipot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FFF4AFC3D99B9D748924FB81;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2020BF8D484F4A0D73B542E4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D1CE3E5FF608A790F1EB23DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60AEF00F7DE8C25CEDDCF1A0 /* Gallipot */,
+				99128D90653EA332F6F980F2 /* GallipotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4681951AF3832B74988BF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC8A5D0D99738853A43DB3D /* Assets.xcassets in Resources */,
+				E4B16CD66B47A874FD80ED08 /* bundled_shelf.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527C41DA3D96F3F87E975B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B8D0347F51BBFF3A70AC6 /* APIConfig.swift in Sources */,
+				426397A7D7A32FB251E64F5A /* AppDelegate.swift in Sources */,
+				67278EB4AEFF59E527F9EE89 /* Bay.swift in Sources */,
+				40DFD6A61F28518AB4C2441B /* BayPane.swift in Sources */,
+				809F510E8F0B8613FA230DA7 /* BayStack.swift in Sources */,
+				7B864E2F100986ED24309CF7 /* BundledShelf.swift in Sources */,
+				52189B72CAEBA0552B0344C0 /* CaptureDesk.swift in Sources */,
+				0E7C8FA2AE28102F9821AF7C /* CaptureSheet.swift in Sources */,
+				17053F9942F7C4F939954769 /* CatalogPorter.swift in Sources */,
+				AF5B69F4FB82F40EFD370A16 /* ContentView.swift in Sources */,
+				AC7A00ED917DF60AA7DCA2F9 /* Daykey.swift in Sources */,
+				B471FB9F6564DED2F40FE65E /* DeskPane.swift in Sources */,
+				15DDC5A7EE1C10878B86F5A1 /* Face.swift in Sources */,
+				5B20C5B8A953A3F0FCC783E5 /* FaceHeroCard.swift in Sources */,
+				CF90C3A9659A9686851A4226 /* FaceInk.swift in Sources */,
+				A5DBE308C274FD3F9D19E5D2 /* FaceThinRow.swift in Sources */,
+				0ED94B11AF5810CBA3F965BB /* FacingPane.swift in Sources */,
+				36140FD25407A826385FEBAC /* FusePane.swift in Sources */,
+				EB01D2FF7B6D3AF0EAD5D1EB /* GallipotApp.swift in Sources */,
+				4DFC32193A84C8542E5EDB41 /* GallipotIntents.swift in Sources */,
+				D7EAC357050915F624DFE785 /* HuntPane.swift in Sources */,
+				744C2D646AAB9C312D85AB66 /* IdentityStash.swift in Sources */,
+				7E84F2AA86B048ADFB037FD4 /* Lot.swift in Sources */,
+				87514FA6A428A612BAB2BE46 /* OnboardingStack.swift in Sources */,
+				B57B7FA629CD3E04ECCF9230 /* PantryPane.swift in Sources */,
+				83CD78A7CAD867EA9E566378 /* PullFaceControl.swift in Sources */,
+				AA13D980E56D5FD7C3B669DB /* PullMark.swift in Sources */,
+				B83882DD1CB5EEC382BEA616 /* ReviewScreenFlag.swift in Sources */,
+				65938336ED9407AA0CBE39AD /* Spent.swift in Sources */,
+				F320AD08979FF437B2B92B2B /* SpentCullBar.swift in Sources */,
+				D4618B0ACB1600C7BCBE70C5 /* StillroomCSV.swift in Sources */,
+				6FB8D92D738FAA19575A8416 /* StillroomChrome.swift in Sources */,
+				CEBB291B9D286D7FE793ADC2 /* StillroomCutout.swift in Sources */,
+				ECAD9F3BF96AE494C1CCD81A /* StillroomDocument.swift in Sources */,
+				0FC39F976DD502893397DC7E /* StillroomFault.swift in Sources */,
+				48A1E7EDBAE68B3F9C9EFC9B /* StillroomLink.swift in Sources */,
+				11B4F0A1749B59CF610B3D11 /* StillroomMeasure.swift in Sources */,
+				CD7967781BA8F7B37015E377 /* StillroomMotion.swift in Sources */,
+				189BAFCDBE28BCA60CBD2023 /* StillroomPaint.swift in Sources */,
+				5F538429DB1D9B9CE7D8A0EE /* StillroomPaths.swift in Sources */,
+				EAA78438CD181FE554262FA8 /* StillroomSession.swift in Sources */,
+				D65BF3FC1A0E77479D6E3FFA /* StillroomStore.swift in Sources */,
+				635C25296F0871CE3B514662 /* StillroomType.swift in Sources */,
+				32FCC73A77D032B45EBA7D19 /* StillroomVault.swift in Sources */,
+				999B0FDEC0385803C294695E /* TinCodeHarvest.swift in Sources */,
+				9B5FDA17E0803BB29EC76F66 /* TinHuntPreview.swift in Sources */,
+				C1CBB941EF9174863CB9FEDA /* TinHuntReticle.swift in Sources */,
+				B037ACD5D6557DBCEB24CC60 /* TinIdentity.swift in Sources */,
+				6EDC758F5371B02CA7916C84 /* UseSoonRail.swift in Sources */,
+				C5B8BDEECEA69DE6267202A5 /* WorldShelfClient.swift in Sources */,
+				FE294758A91C429626C59BCB /* WorldShelfDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B01982A74C649C9C153260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B070018DFECDF2E492651AB5 /* FaceThenPullTests.swift in Sources */,
+				16A19B89A3B15EA7D7ACF84E /* FamilyInvariantTests.swift in Sources */,
+				065B30D44F942E7778200FDD /* GallipotTests.swift in Sources */,
+				AFABBBC01C29275DA41C2F46 /* ReviewScreenAndCodeTests.swift in Sources */,
+				099BA53CC6D78A6FD7F058FC /* StillroomLinkTests.swift in Sources */,
+				2C21D5EF1C41D32FBFBCD001 /* StillroomPersistenceTests.swift in Sources */,
+				A942C96054F63AE83F92DCD3 /* TestSupport.swift in Sources */,
+				825D5CF591FA1927C81917A3 /* WorldShelfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709381F76731169797177C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60AEF00F7DE8C25CEDDCF1A0 /* Gallipot */;
+			targetProxy = 533C04A4B1AE55A7212ECAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018204E06146AAEB1BCA0615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gallipot.bay.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gallipot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gallipot";
+			};
+			name = Debug;
+		};
+		07268645E7339C5F788F0C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		09C4D87E6EB7500C57D09C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		0B0BE91EDF7C0F81139BD229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gallipot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gallipot;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gallipot uses the camera to read a grocery barcode so a tin can be identified and given a best-before date.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gallipot.bay;
+				PRODUCT_NAME = Gallipot;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AA414E2F1606CF31A5EFA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gallipot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gallipot;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gallipot uses the camera to read a grocery barcode so a tin can be identified and given a best-before date.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gallipot.bay;
+				PRODUCT_NAME = Gallipot;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F567DE245C70253C3DE2737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gallipot.bay.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gallipot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gallipot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C85ECE5933DD88684FF044A /* Build configuration list for PBXNativeTarget "GallipotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018204E06146AAEB1BCA0615 /* Debug */,
+				4F567DE245C70253C3DE2737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C8B67E43347B7ED0F426961 /* Build configuration list for PBXProject "Gallipot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C4D87E6EB7500C57D09C24 /* Debug */,
+				07268645E7339C5F788F0C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45A2B628631E900466969B7A /* Build configuration list for PBXNativeTarget "Gallipot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0BE91EDF7C0F81139BD229 /* Debug */,
+				2AA414E2F1606CF31A5EFA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2020BF8D484F4A0D73B542E4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB091ADC43CDA2D0E7124411 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2020BF8D484F4A0D73B542E4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 178E4A0719C85F32F3F4419B /* Project object */;
+}

@@ -1,0 +1,9 @@
+Gallipot is a pantry log for households that waste food because a newer pack sits in front of an older one. Scan a grocery tin, set its best before, and pull the older pack first.
+
+• Use Soon shows the facing tin and days left. Pull peels that pack. A newer pack stays behind until the older one is gone.
+• Scan a tin with the camera, pick a sample code, type a code, or search a tin name. Set Best before and QTY, then Land.
+• Pantry lists stacked dates behind each tin. FACE is the soonest live date. Spent dates wait for Cull.
+• Undo peels the last pull or the last tin.
+• Settings includes How Pull works, Open Food Facts, Contact Gallipot, Export CSV, Replay walkthrough, and Reset all data.
+
+No account is required. Tins, dates, and pulls stay on this device.

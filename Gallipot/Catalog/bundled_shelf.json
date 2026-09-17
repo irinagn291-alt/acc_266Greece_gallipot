@@ -1,0 +1,14 @@
+{
+  "tins": [
+    { "barcode": "2034567890128", "name": "Rolled oats", "brand": "Mill" },
+    { "barcode": "2034567890135", "name": "Tomato paste", "brand": "Kettle" },
+    { "barcode": "2034567890142", "name": "Chickpeas", "brand": "Tin" },
+    { "barcode": "2034567890159", "name": "Black tea", "brand": "Caddy" },
+    { "barcode": "2034567890166", "name": "White rice", "brand": "Bin" },
+    { "barcode": "2034567890173", "name": "Olive oil", "brand": "Cruet" },
+    { "barcode": "2034567890180", "name": "Red lentils", "brand": "Sack" },
+    { "barcode": "2034567890197", "name": "Plain flour", "brand": "Mill" },
+    { "barcode": "2034567890203", "name": "Chopped tomatoes", "brand": "Kettle" },
+    { "barcode": "2034567890210", "name": "Dried pasta", "brand": "Bin" }
+  ]
+}

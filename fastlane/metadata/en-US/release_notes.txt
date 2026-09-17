@@ -1,0 +1,9 @@
+Version 1.0 is the first release of Gallipot.
+
+Scan a grocery tin, set its best before, and land it on Use Soon. Pull the facing pack so the older date is used first. A newer pack stays behind until that one is gone.
+
+Pantry shows stacked dates behind each tin. Past dates fold to Spent at midnight and can be culled.
+
+Settings includes How Pull works, a tappable Open Food Facts credit, Contact Gallipot, Export CSV, Replay walkthrough, and Reset all data.
+
+No account, no in-app purchase.

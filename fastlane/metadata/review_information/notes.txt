@@ -1,0 +1,17 @@
+Camera is the only permission. It appears when you open Scan and the camera has not been decided yet. The pre-screen title is Read the tin, the line is The camera names a grocery tin so a date can land on Use Soon, and the button is Continue. The system dialog uses this usage description: Gallipot uses the camera to read a grocery barcode so a tin can be identified and given a best-before date. If access was denied, Scan shows Camera is off. and Open Settings, or type a code. The button is Open Settings. SAMPLE CODES and Code or URL stay on that sheet.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Gallipot is a household pantry log. It is for people who waste food because a newer pack sits in front of an older one. Scan a tin, set the best before, and pull the facing pack on Use Soon.
+
+No credentials or demo account are needed. Cold launch opens the walkthrough: Scan a tin, Pull the front pack, Spent at midnight, then Older pack first. Tap Continue on each page, or Skip. Use Soon then opens. If the headline is The pantry is empty, tap Scan. If a FACE is on the rail, the job is Pull the facing tin. Tap Pull on that card. Undo is at the top. To add a tin, tap Scan. The sheet says Scan a tin. Then set the best-before. On a device, tap Continue on Read the tin, then use the system camera dialog, or pick a name under SAMPLE CODES, type a code in Code or URL and tap Look up, or Search a tin name. The title becomes Best before. Set Best before and QTY, then Land. On Use Soon, tap PANTRY to open Pantry and see stacked dates. Open a tin for FACE, BEHIND, and SPENT. Tap Cull, then confirm Cull spent dates. They leave this device. Open Settings from the gear. How Pull works explains Older pack first. SOURCES has Open Food Facts and Contact Gallipot. FILE has Export CSV and Share CSV. DATA has Replay walkthrough and Reset all data.
+
+Looking up a code or searching a tin name fetches a grocery name and brand so the tin can be identified. Names stay on this device after lookup. Contact Gallipot opens the support page. Share CSV shares an export you choose. Tins, dates, and pulls stay on this device.
+
+Behaviour does not differ by region.
+
+No licence or regulated-industry paperwork applies. This is a household pantry log, not a medical, pharmacy, or food-safety product.
+
+The app is a personal log only and gives no recommendations. Open Food Facts on Settings is a tappable credit for product names, not a health claim.
+
+A scannable QR (qr-code.png) is attached to this review. It encodes 2034567890128. Open Scan and point the camera at the attachment. On Simulator there is no camera. Type those digits in Code or URL and tap Look up, or pick Rolled oats under SAMPLE CODES.

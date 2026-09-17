@@ -1,0 +1,1 @@
+Scan a tin, set the best-before date, and pull the facing pack on Use Soon so the older date is used first.
